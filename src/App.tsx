@@ -17,7 +17,7 @@ import { Signup } from './components/Signup';
 
 export const App = () => {
   const httpLink = createHttpLink({
-    uri: 'http://localhost:8080/graphql',
+    uri: `${import.meta.env.VITE_GRAPHQL_URI}`,
   });
 
   const authLink = setContext((_, { headers }) => {
