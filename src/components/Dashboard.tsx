@@ -236,7 +236,7 @@ export const Dashboard = () => {
                         type='submit'
                         disabled={loading}
                       >
-                        Shorten
+                        SHORTEN
                       </button>
                     </form>
 
